@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <title>Administração Regional do Guará</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <script type="module" src="script.js"></script>
+<body>
+    <!-- Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-success">
+      <a class="navbar-brand" href="/index.html">R.A GUARÁ</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="/index.html"
+              >Início <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/formulario.html">Formulário de Contato</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/avaliacao.html">Formulário de Avaliação</a>
+          </li>
+        </ul>
+      </div>
+  </nav>
+</head>
+<body>
+<div class="container my-5">
+    <h1 class="mb-4">Avaliação de Satisfação</h1>
+    <form>
+        <div class="form-group">
+            <label for="problema">Quais dificuldades você enfrentou?</label>
+            <textarea class="form-control" id="problema" placeholder="Descreva o problema..." rows="4"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="qualidade">Como você avalia a qualidade do nosso serviço?</label>
+            <select class="form-control" id="qualidade">
+                <option value="5">Excelente</option>
+                <option value="4">Muito bom</option>
+                <option value="3">Bom</option>
+                <option value="2">Regular</option>
+                <option value="1">Ruim</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="melhoria">O que você sugeriria para melhorar nosso serviço?</label>
+            <textarea class="form-control" id="melhoria" placeholder="Sugestões..." rows="4"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="mudancas">Depois de melhorias recentes, como você avalia o tempo de resposta?</label>
+            <select class="form-control" id="mudancas">
+                <option value="5">Muito melhor</option>
+                <option value="4">Melhor</option>
+                <option value="3">Igual</option>
+                <option value="2">Pior</option>
+                <option value="1">Muito pior</option>
+            </select>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Enviar Avaliação</button>
+    </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+<footer class="bg-light text-center text-lg-start mt-4">
+<div class="container p-4">
+  <div class="row">
+    <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+      <h5 class="text-uppercase">Administração Regional do Guará</h5>
+      <p>
+        Endereço: Setor Central, Área Especial, Guará II, Brasília - DF,
+        71000-000
+      </p>
+    </div>
+    <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+      <h5 class="text-uppercase">Contato</h5>
+      <p>Email: contato@guara.df.gov.br</p>
+      <p>Telefone: (61) 1234-5678</p>
+    </div>
+  </div>
+</div>
+<div class="text-center p-3 bg-dark text-white">
+  © 2024 Administração Regional do Guará
+</div>
+</footer>
+<script
+src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+crossorigin="anonymous"
+></script>
+<script
+src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+integrity="sha384-IQsoLXlY3h7/4W5k+PpD7rG5z5i6Y5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5r5e5
